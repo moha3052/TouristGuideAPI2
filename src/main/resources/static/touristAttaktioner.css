@@ -1,0 +1,179 @@
+.video-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.menu-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.menu-box nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-box nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu-box nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+    font-size: 2cm;
+}
+
+.KBH {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#line {
+    position: fixed;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+
+.section {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease;
+}
+
+#section1 {
+    background-image: url('https://a.cdn-hotels.com/gdcs/production74/d1658/b75ad6a1-faef-4d3d-9e0a-440a141d79bb.jpg');
+    background-position: 50% 0;
+}
+
+.text-box video {
+    width: 100%;
+    max-width: 400px;
+    height: min-content;
+}
+
+#section2 {
+    background-image: url('https://www.legoland.dk/media/rksjmvkc/148-legoland__k1a3129_final_1920x1080.jpg');
+}
+
+.text-box-left{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+
+.video-container-lego {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.video-container-lego video {
+    width: 100%;
+}
+
+
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.text-box h2 {
+    margin-top: 1;
+}
+
+.text-box p {
+    margin: 0;
+}
+
+#section3 {
+    position: relative;
+    height: 100vh;
+    background-image: url('https://blikroer.dk/sites/default/files/styles/facebook/public/imported_images/received_597804584102719.jpeg?itok=O0gz4wtS');
+    background-size: cover;
+    background-position: center;
+}
+
+.text-box3 {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.text-box3 h2 {
+    margin-top: 0;
+}
+
+.text-box3 p {
+    margin: 0;
+}
+
+.text-box3 video {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5em;
+    font-size: larger;
+}
